@@ -1,0 +1,52 @@
+{
+    "subscriptions": [
+        {
+            "id": 1,
+            "productName": "Office 365 家庭版",
+            "accounts": ["user1@example.com", "user2@example.com"],
+            "expiryDate": "2024-12-25",
+            "status": "active",
+            "managementUrl": "https://account.microsoft.com/services/",
+            "intention": null
+        },
+        {
+            "id": 2,
+            "productName": "Adobe Creative Cloud",
+            "accounts": ["designer@company.com"],
+            "expiryDate": "2024-01-15",
+            "status": "expiring",
+            "managementUrl": "https://account.adobe.com/",
+            "intention": null
+        },
+        {
+            "id": 3,
+            "productName": "Netflix Premium",
+            "accounts": ["family@example.com"],
+            "expiryDate": "2024-01-01",
+            "status": "expired",
+            "managementUrl": "https://www.netflix.com/account",
+            "intention": null
+        },
+        {
+            "id": 4,
+            "productName": "Spotify Premium",
+            "accounts": ["music@example.com"],
+            "expiryDate": "2024-02-10",
+            "status": "active",
+            "managementUrl": "https://www.spotify.com/account/",
+            "intention": "renew"
+        },
+        {
+            "id": 5,
+            "productName": "Dropbox Plus",
+            "accounts": ["work@company.com", "backup@personal.com"],
+            "expiryDate": "2024-01-20",
+            "status": "active",
+            "managementUrl": "https://www.dropbox.com/account/",
+            "intention": "cancel"
+        }
+    ]
+}
+
+
+
